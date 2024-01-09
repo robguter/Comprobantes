@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="86dp"
+        android:layout_marginEnd="5dp"
+        android:background="@drawable/cuadrado"
+        android:padding="5dp"
+        android:paddingBottom="5dp">
+
+        <TextView
+            android:id="@+id/tvidcomp"
+            android:layout_width="70dp"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginStart="2dp"
+            android:layout_marginTop="6dp"
+            android:background="@drawable/cuadrado"
+            android:gravity="center"
+            android:paddingTop="0dp"
+            android:paddingBottom="0dp"
+            android:text="1"
+            android:textColor="@color/white"
+            android:textSize="14sp"></TextView>
+
+        <TextView
+            android:id="@+id/tvfecha"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="3dp"
+            android:layout_toEndOf="@+id/tvidcomp"
+            android:background="@android:color/transparent"
+            android:minWidth="90dp"
+            android:paddingStart="2dp"
+            android:paddingTop="0dp"
+            android:paddingBottom="0dp"
+            android:text="Fecha"
+            android:textColor="@color/white"
+            android:textSize="15sp"></TextView>
+
+        <TextView
+            android:id="@+id/tvmoned"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvfecha"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="3dp"
+            android:layout_toEndOf="@+id/tvidcomp"
+            android:background="@android:color/transparent"
+            android:minWidth="90dp"
+            android:paddingStart="2dp"
+            android:paddingTop="0dp"
+            android:paddingBottom="0dp"
+            android:text="Moneda"
+            android:textColor="@color/white"
+            android:textSize="15sp"></TextView>
+
+        <TextView
+            android:id="@+id/tvoficd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="3dp"
+            android:layout_toEndOf="@+id/tvfecha"
+            android:background="@android:color/transparent"
+            android:minWidth="150dp"
+            android:paddingStart="2dp"
+            android:paddingTop="0dp"
+            android:paddingBottom="0dp"
+            android:text="OficD"
+            android:textColor="@color/white"
+            android:textSize="15sp"></TextView>
+
+        <TextView
+            android:id="@+id/tvmonto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvoficd"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="3dp"
+            android:layout_toEndOf="@+id/tvmoned"
+            android:background="@android:color/transparent"
+            android:minWidth="150dp"
+            android:paddingStart="2dp"
+            android:paddingTop="0dp"
+            android:paddingBottom="0dp"
+            android:text="Monto"
+            android:textAlignment="textEnd"
+            android:textColor="@color/white"
+            android:textSize="15sp"></TextView>
+
+        <TextView
+            android:id="@+id/tvestatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="3dp"
+            android:layout_toEndOf="@+id/tvmonto"
+            android:background="@drawable/cuadrado"
+            android:gravity="center"
+            android:paddingStart="3dp"
+            android:paddingEnd="3dp"
+            android:text="A"
+            android:textColor="@color/white">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/tvidcte"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"></TextView>
+
+        <TextView
+            android:id="@+id/tvidusr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"></TextView>
+
+    </RelativeLayout>
+
+</LinearLayout>

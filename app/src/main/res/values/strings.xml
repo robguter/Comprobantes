@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">App de Comprobantes</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="ttl_ssn">Bienvenido</string>
+    <string name="msc_User">Usuario</string>
+    <string name="msc_Pasw">Contraseña</string>
+    <string name="ttl_Bttn">Iniciar Sesión</string>
+    <string name="title_comp">Mis Comprobantes</string>
+    <string name="title_comp_p">Inicio de Sesión</string>
+    <string name="title_comp_e">Comprobante con Nuevo Estatus</string>
+    <string name="title_comp_l">Listado de Comprobantes</string>
+    <string name="ttl_stat">Seleccione un Comprobante para cambiar el Estatus del mismo</string>
+</resources>
